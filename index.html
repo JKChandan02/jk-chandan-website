@@ -19,7 +19,30 @@ section.content{padding:95px 7%}.inner{max-width:1100px;margin:auto}.about{displ
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}.gallery img{width:100%;max-height:550px;object-fit:cover;object-position:center 30%;padding:10px;border:1px solid var(--line)}.contact{text-align:center}.contact .copy{margin:0 auto 28px}
 footer{border-top:1px solid var(--line);padding:24px 6%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#8c8679;font-size:9px;letter-spacing:1.5px;text-transform:uppercase}
 @media(max-width:800px){nav{padding:15px 4%}.logo{font-size:19px}.links{gap:10px;font-size:8px}.hero{grid-template-columns:1fr;gap:48px;padding:60px 7%}.frame{width:88%}.frame img{height:480px}.about,.gallery{grid-template-columns:1fr;gap:24px}.grid{grid-template-columns:1fr}section.content{padding:70px 7%}}
-</style></head><body>
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 25px;
+}
+.social-links a {
+  color: #d8b45a;
+  border: 1px solid #d8b45a;
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+.social-links a:hover {
+  background: #d8b45a;
+  color: #080808;
+  box-shadow: 0 0 18px #d8b45a;
+  transform: translateY(-3px);
+}
+</style>
+</head><body>
 <header><nav><a class="logo" href="#home">J. K. CHANDAN</a><div class="links"><a href="#about">About</a><a href="#journey">Journey</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div></nav></header>
 <main><div class="hero" id="home"><div><div class="kicker">Official Personal Website</div><h1>J. K.<span>CHANDAN</span></h1><p class="tag">A Personality Beyond Ordinary</p><p class="lead">A distinctive personal presence. A story shaped by ambition, experiences and the pursuit of what comes next.</p><div class="actions"><a class="btn gold" href="#about">Discover My Story</a><a class="btn" href="#gallery">Explore Gallery</a></div></div><div class="frame"><img src="assets/portrait.png" alt="Portrait of J. K. Chandan"><div class="caption">The Person · The Journey</div></div></div>
 <div class="marquee">“Elegance is an attitude. Excellence is a journey.”</div>
