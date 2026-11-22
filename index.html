@@ -94,10 +94,55 @@ footer{border-top:1px solid var(--line);padding:24px 6%;display:flex;justify-con
   max-width: 60%;
   height: auto;
 }
+  .welcome-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #080808;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: welcomeFade 4s ease forwards;
+}
+
+.welcome-content img {
+  width: 220px;
+  max-width: 70%;
+}
+
+.welcome-content p {
+  color: #d8b45a;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.welcome-content h1 {
+  color: #d8b45a;
+  letter-spacing: 4px;
+}
+
+.welcome-content span {
+  color: #ccc;
+  font-size: 12px;
+}
+
+@keyframes welcomeFade {
+  0%, 70% { opacity: 1; visibility: visible; }
+  100% { opacity: 0; visibility: hidden; }
+}
 </style>
-<link rel="icon" type="image/png" href="assets/file_000000000e6881faa5587f8be54f4757.png">
+ rel="icon" type="image/png" href="assets/file_000000000e6881faa5587f8be54f4757.png">
 </head><body>
-<header>
+  <div class="welcome-screen" id="welcome">
+  <div class="welcome-content">
+    <img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K. Chandan Signature">
+    <p>WELCOME TO THE WORLD OF</p>
+    <h1>J. K. CHANDAN</h1>
+    <span>Distinct by Identity. Defined by Excellence.</span>
+  </div>
+  </div>
+<header><link
 <div class="brand-logo">
 <img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K. Chandan Signature">
 </div>
@@ -130,7 +175,11 @@ footer{border-top:1px solid var(--line);padding:24px 6%;display:flex;justify-con
 <img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K.C. Signature">
 </div>
 </footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script><script>
+setTimeout(function(){
+  document.getElementById('welcome').remove();
+}, 4000);
+</script></body></html>
 <div class="social-links">
   <a href="https://www.instagram.com/theunfiltered__jk/" target="_blank">Instagram</a>
   <a href="https://www.facebook.com/share/1A3na4QfwT/" target="_blank">Facebook</a>
