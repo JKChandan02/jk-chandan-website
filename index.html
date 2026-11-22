@@ -1,189 +1,665 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#080807"><title>J. K. Chandan | Official</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080807">
+<title>J. K. Chandan | Official</title>
+<meta name="description" content="The official personal website of J. K. Chandan. Distinct by Identity. Defined by Excellence.">
+
+<link rel="icon" type="image/png" href="assets/file_000000000e6881faa5587f8be54f4757.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-:root{--bg:#080807;--gold:#c7a35b;--pale:#ead7a8;--white:#f6f1e7;--muted:#aaa397;--line:rgba(199,163,91,.25)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Manrope,Arial,sans-serif}a{color:inherit;text-decoration:none}
-header{position:sticky;top:0;z-index:5;background:#080807ed;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-nav{max-width:1200px;margin:auto;padding:18px 6%;display:flex;justify-content:space-between;align-items:center}.logo{font:600 25px 'Cormorant Garamond',serif;letter-spacing:3px;color:var(--pale)}.links{display:flex;gap:25px;font-size:10px;letter-spacing:2px;text-transform:uppercase}.links a:hover{color:var(--gold)}
-.hero{max-width:1200px;min-height:700px;margin:auto;padding:80px 6%;display:grid;grid-template-columns:1fr .9fr;gap:8%;align-items:center;background:radial-gradient(ellipse at 80% 45%,#c7a35b1b,transparent 38%)}
-.kicker{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}h1{font:500 clamp(65px,9vw,120px)/.83 'Cormorant Garamond',serif;letter-spacing:-2px;margin:28px 0}h1 span{display:block;color:var(--pale)}.tag{font:italic clamp(24px,3vw,37px) 'Cormorant Garamond',serif;color:#e0cfaa;margin:0 0 24px}.lead,.copy{color:var(--muted);font-size:13px;line-height:2.1;max-width:490px}
-.actions{display:flex;gap:13px;margin-top:34px;flex-wrap:wrap}.btn{display:inline-block;padding:15px 23px;border:1px solid var(--gold);font-size:9px;letter-spacing:2px;text-transform:uppercase}.btn.gold{background:linear-gradient(135deg,#e4ca8c,#b58b42);color:#17130a}
-.frame{position:relative;padding:12px;border:1px solid var(--gold);max-width:450px;margin:auto}.frame:after{content:"";position:absolute;inset:25px -15px -15px 25px;border:1px solid #c7a35b77;z-index:0}.frame img{display:block;position:relative;z-index:1;width:100%;height:560px;object-fit:cover;object-position:center 32%;filter:saturate(.84) contrast(1.04)}.caption{position:absolute;z-index:2;bottom:27px;left:27px;background:#090908e8;border-left:2px solid var(--gold);padding:12px 16px;font-size:9px;letter-spacing:2px;text-transform:uppercase}
-.marquee{text-align:center;border-block:1px solid var(--line);padding:18px;color:var(--gold);font:italic 22px 'Cormorant Garamond',serif;letter-spacing:2px}
-section.content{padding:95px 7%}.inner{max-width:1100px;margin:auto}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:9%}.title{font:500 clamp(45px,6vw,70px)/.95 'Cormorant Garamond',serif;margin:15px 0 25px}.quote{border-left:1px solid var(--gold);padding:8px 0 8px 22px;font:italic 27px 'Cormorant Garamond',serif;color:var(--pale);margin-top:30px}
-.dark{background:#0e0e0c;border-block:1px solid #ffffff0b}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:38px}.tile{padding:28px 24px;background:linear-gradient(145deg,#181815,#0c0c0b);border:1px solid var(--line);min-height:180px}.num{font:32px 'Cormorant Garamond',serif;color:var(--gold)}.tile h3{font:500 27px 'Cormorant Garamond',serif;margin:12px 0}.tile p{font-size:11px;line-height:1.9;color:var(--muted)}
-.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}.gallery img{width:100%;max-height:550px;object-fit:cover;object-position:center 30%;padding:10px;border:1px solid var(--line)}.contact{text-align:center}.contact .copy{margin:0 auto 28px}
-footer{border-top:1px solid var(--line);padding:24px 6%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#8c8679;font-size:9px;letter-spacing:1.5px;text-transform:uppercase}
-@media(max-width:800px){nav{padding:15px 4%}.logo{font-size:19px}.links{gap:10px;font-size:8px}.hero{grid-template-columns:1fr;gap:48px;padding:60px 7%}.frame{width:88%}.frame img{height:480px}.about,.gallery{grid-template-columns:1fr;gap:24px}.grid{grid-template-columns:1fr}section.content{padding:70px 7%}}
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 25px;
+:root {
+  --bg:#080807;
+  --gold:#c7a35b;
+  --pale:#ead7a8;
+  --white:#f6f1e7;
+  --muted:#aaa397;
+  --line:rgba(199,163,91,.25);
 }
-.social-links a {
-  color: #d8b45a;
-  border: 1px solid #d8b45a;
-  padding: 12px 22px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
-  transition: 0.3s ease;
+
+* { box-sizing:border-box; }
+
+html {
+  scroll-behavior:smooth;
+  scroll-padding-top:100px;
 }
-.social-links a:hover {
-  background: #d8b45a;
-  color: #080808;
-  box-shadow: 0 0 18px #d8b45a;
-  transform: translateY(-3px);
+
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--white);
+  font-family:Manrope,Arial,sans-serif;
+  overflow-x:hidden;
 }
-  .signature {
-  text-align: center;
-  padding: 90px 20px;
-  background: #080808;
-  border-top: 1px solid #8c713b;
+
+a { color:inherit; text-decoration:none; }
+
+header {
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:#080807ed;
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
 }
-.signature p {
-  color: #d8b45a;
-  letter-spacing: 4px;
-  font-size: 12px;
+
+.brand-logo {
+  text-align:center;
+  padding:12px 10px 4px;
+  background:#080808;
 }
-.signature h2 {
-  color: #d8b45a;
-  font-size: 38px;
-  letter-spacing: 5px;
-  margin: 25px 0;
-}
-.signature h3 {
-  color: #ccc;
-  font-size: 14px;
-  font-weight: 400;
-}
-.signature-line {
-  width: 100px;
-  height: 1px;
-  background: #d8b45a;
-  margin: 25px auto;
-}
-.signature span {
-  color: #d8b45a;
-  font-style: italic;
-  letter-spacing: 5px;
-}
-  .brand-logo {
-  text-align: center;
-  padding: 20px 10px;
-  background: #080808;
-}
+
 .brand-logo img {
-  width: 180px;
-  max-width: 70%;
-  height: auto;
+  width:145px;
+  max-width:65%;
+  height:auto;
+  display:inline-block;
 }
-  .footer-logo {
-  text-align: center;
-  padding: 15px;
+
+nav {
+  max-width:1200px;
+  margin:auto;
+  padding:14px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px;
+}
+
+.logo {
+  font:600 25px 'Cormorant Garamond',serif;
+  letter-spacing:3px;
+  color:var(--pale);
+  white-space:nowrap;
+}
+
+.links {
+  display:flex;
+  gap:25px;
+  font-size:10px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.links a:hover { color:var(--gold); }
+
+.hero {
+  max-width:1200px;
+  min-height:700px;
+  margin:auto;
+  padding:80px 6%;
+  display:grid;
+  grid-template-columns:1fr .9fr;
+  gap:8%;
+  align-items:center;
+  background:radial-gradient(ellipse at 80% 45%,#c7a35b1b,transparent 38%);
+}
+
+.kicker {
+  font-size:10px;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  color:var(--gold);
+}
+
+h1 {
+  font:500 clamp(65px,9vw,120px)/.9 'Cormorant Garamond',serif;
+  letter-spacing:-2px;
+  margin:28px 0;
+}
+
+h1 span {
+  display:block;
+  color:var(--pale);
+}
+
+.tag {
+  font:italic clamp(24px,3vw,37px) 'Cormorant Garamond',serif;
+  color:#e0cfaa;
+  margin:0 0 24px;
+}
+
+.lead,.copy {
+  color:var(--muted);
+  font-size:13px;
+  line-height:2.1;
+  max-width:490px;
+}
+
+.actions {
+  display:flex;
+  gap:13px;
+  margin-top:34px;
+  flex-wrap:wrap;
+}
+
+.btn {
+  display:inline-block;
+  padding:15px 23px;
+  border:1px solid var(--gold);
+  font-size:9px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  transition:.3s ease;
+}
+
+.btn:hover {
+  background:var(--gold);
+  color:#080807;
+}
+
+.btn.gold {
+  background:linear-gradient(135deg,#e4ca8c,#b58b42);
+  color:#17130a;
+}
+
+.frame {
+  position:relative;
+  padding:12px;
+  border:1px solid var(--gold);
+  max-width:450px;
+  width:100%;
+  margin:auto;
+}
+
+.frame:after {
+  content:"";
+  position:absolute;
+  inset:25px -15px -15px 25px;
+  border:1px solid #c7a35b77;
+  z-index:0;
+  pointer-events:none;
+}
+
+.frame img {
+  display:block;
+  position:relative;
+  z-index:1;
+  width:100%;
+  height:560px;
+  object-fit:cover;
+  object-position:center 32%;
+  filter:saturate(.84) contrast(1.04);
+}
+
+.caption {
+  position:absolute;
+  z-index:2;
+  bottom:27px;
+  left:27px;
+  background:#090908e8;
+  border-left:2px solid var(--gold);
+  padding:12px 16px;
+  font-size:9px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.marquee {
+  text-align:center;
+  border-block:1px solid var(--line);
+  padding:18px;
+  color:var(--gold);
+  font:italic 22px 'Cormorant Garamond',serif;
+  letter-spacing:2px;
+}
+
+section.content { padding:95px 7%; }
+
+.inner {
+  max-width:1100px;
+  margin:auto;
+}
+
+.about {
+  display:grid;
+  grid-template-columns:.8fr 1.2fr;
+  gap:9%;
+}
+
+.title {
+  font:500 clamp(45px,6vw,70px)/.95 'Cormorant Garamond',serif;
+  margin:15px 0 25px;
+}
+
+.quote {
+  border-left:1px solid var(--gold);
+  padding:8px 0 8px 22px;
+  font:italic 27px 'Cormorant Garamond',serif;
+  color:var(--pale);
+  margin-top:30px;
+}
+
+.dark {
+  background:#0e0e0c;
+  border-block:1px solid #ffffff0b;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:17px;
+  margin-top:38px;
+}
+
+.tile {
+  padding:28px 24px;
+  background:linear-gradient(145deg,#181815,#0c0c0b);
+  border:1px solid var(--line);
+  min-height:180px;
+  transition:.3s ease;
+}
+
+.tile:hover {
+  border-color:var(--gold);
+  transform:translateY(-5px);
+}
+
+.num {
+  font:32px 'Cormorant Garamond',serif;
+  color:var(--gold);
+}
+
+.tile h3 {
+  font:500 27px 'Cormorant Garamond',serif;
+  margin:12px 0;
+}
+
+.tile p {
+  font-size:11px;
+  line-height:1.9;
+  color:var(--muted);
+}
+
+.gallery {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8%;
+  align-items:center;
+}
+
+.gallery img {
+  width:100%;
+  max-height:550px;
+  object-fit:cover;
+  object-position:center 30%;
+  padding:10px;
+  border:1px solid var(--line);
+}
+
+.contact { text-align:center; }
+
+.contact .copy { margin:0 auto 28px; }
+
+.social-links {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:14px;
+  margin:25px 0 35px;
+}
+
+.social-links a {
+  color:#d8b45a;
+  border:1px solid #d8b45a;
+  padding:12px 22px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  font-size:12px;
+  letter-spacing:1px;
+  transition:.3s ease;
+}
+
+.social-links a:hover {
+  background:#d8b45a;
+  color:#080808;
+  box-shadow:0 0 18px #d8b45a;
+  transform:translateY(-3px);
+}
+
+.signature {
+  text-align:center;
+  padding:90px 20px;
+  background:#080808;
+  border-top:1px solid #8c713b;
+}
+
+.signature p {
+  color:#d8b45a;
+  letter-spacing:4px;
+  font-size:12px;
+}
+
+.signature h2 {
+  color:#d8b45a;
+  font:600 clamp(28px,5vw,42px) 'Cormorant Garamond',serif;
+  letter-spacing:5px;
+  margin:25px 0;
+}
+
+.signature h3 {
+  color:#ccc;
+  font-size:14px;
+  font-weight:400;
+}
+
+.signature-line {
+  width:100px;
+  height:1px;
+  background:#d8b45a;
+  margin:25px auto;
+}
+
+.signature span {
+  color:#d8b45a;
+  font-style:italic;
+  letter-spacing:5px;
+}
+
+footer {
+  border-top:1px solid var(--line);
+  padding:24px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+  color:#8c8679;
+  font-size:9px;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+.footer-logo {
+  text-align:center;
+  padding:10px;
 }
 
 .footer-logo img {
-  width: 130px;
-  max-width: 60%;
-  height: auto;
+  width:110px;
+  max-width:60%;
+  height:auto;
 }
-  .welcome-screen {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  background: #080808;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  animation: welcomeFade 4s ease forwards;
+
+/* Welcome Screen */
+
+.welcome-screen {
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  background:#080808;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:20px;
+  animation:welcomeFade 4s ease forwards;
 }
 
 .welcome-content img {
-  width: 220px;
-  max-width: 70%;
+  width:220px;
+  max-width:70%;
 }
 
 .welcome-content p {
-  color: #d8b45a;
-  letter-spacing: 4px;
-  font-size: 12px;
+  color:#d8b45a;
+  letter-spacing:4px;
+  font-size:12px;
 }
 
 .welcome-content h1 {
-  color: #d8b45a;
-  letter-spacing: 4px;
+  color:#d8b45a;
+  font-size:clamp(35px,8vw,65px);
+  letter-spacing:4px;
+  margin:20px 0;
 }
 
 .welcome-content span {
-  color: #ccc;
-  font-size: 12px;
+  color:#ccc;
+  font-size:12px;
 }
 
 @keyframes welcomeFade {
-  0%, 70% { opacity: 1; visibility: visible; }
-  100% { opacity: 0; visibility: hidden; }
+  0%,70% { opacity:1; visibility:visible; }
+  100% { opacity:0; visibility:hidden; }
+}
+
+/* Mobile Design */
+
+@media(max-width:800px) {
+  .brand-logo { padding:10px; }
+  .brand-logo img { width:115px; }
+
+  nav {
+    padding:12px 4%;
+    flex-direction:column;
+    gap:12px;
+  }
+
+  .logo { font-size:20px; }
+
+  .links {
+    gap:16px;
+    flex-wrap:wrap;
+    justify-content:center;
+    font-size:9px;
+  }
+
+  .hero {
+    width:100%;
+    min-height:auto;
+    grid-template-columns:1fr;
+    gap:45px;
+    padding:60px 7%;
+  }
+
+  .hero > div:first-child { min-width:0; }
+
+  .hero h1 { font-size:clamp(55px,14vw,85px); }
+
+  .frame { width:88%; }
+  .frame img { height:480px; }
+
+  .about,.gallery {
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+
+  .grid { grid-template-columns:1fr; }
+
+  section.content { padding:70px 7%; }
+
+  .marquee {
+    font-size:18px;
+    padding:16px 10px;
+  }
+
+  footer {
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .social-links a { padding:11px 17px; }
+}
+
+@media(max-width:380px) {
+  .links { gap:10px; font-size:8px; }
+  .frame img { height:400px; }
+  .welcome-content h1 { letter-spacing:2px; }
 }
 </style>
- rel="icon" type="image/png" href="assets/file_000000000e6881faa5587f8be54f4757.png">
-</head><body>
-  <div class="welcome-screen" id="welcome">
+</head>
+
+<body>
+
+<div class="welcome-screen" id="welcome">
   <div class="welcome-content">
     <img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K. Chandan Signature">
     <p>WELCOME TO THE WORLD OF</p>
     <h1>J. K. CHANDAN</h1>
     <span>Distinct by Identity. Defined by Excellence.</span>
   </div>
-  </div>
-<header><link
-<div class="brand-logo">
-<img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K. Chandan Signature">
 </div>
-<nav><a class="logo" href="#home">J. K. CHANDAN</a><div class="links"><a href="#about">About</a><a href="#journey">Journey</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div></nav></header>
-<main><div class="hero" id="home"><div><div class="kicker">A SIGNATURE OF DISTINCTION</div><h1>J. K.<span>CHANDAN</span></h1><p class="tag">THE ART OF BEING DISTINCT.</p>
-<p class="lead">Not made to follow the ordinary. Defined by individuality, driven by ambition, and inspired by a vision that knows no boundaries. A presence that speaks through elegance. A mindset shaped by ambition. An identity that stands apart.</p>
-<div class="actions"><a class="btn gold" href="#about">Discover My Story</a><a class="btn" href="#gallery">Explore Gallery</a></div></div><div class="frame"><img src="assets/portrait.png" alt="Portrait of J. K. Chandan"><div class="caption">The Person · The Journey</div></div></div>
-<div class="marquee">“Elegance is an attitude. Excellence is a journey.”</div>
-<section class="content" id="about"><div class="inner about"><div><div class="kicker">The introduction</div><h2 class="title">Beyond<br>the Name.</h2><div class="quote">A Personality Beyond Ordinary</div></div><div><p class="copy">Welcome to the official digital space of J. K. Chandan. This website is a personal introduction — a place to share genuine experiences, interests, milestones and future ambitions.</p><p class="copy">Every profile has a story worth telling. This one will grow with authentic moments, meaningful work and verified accomplishments. Thank you for being here.</p></div></div></section>
-<section class="content dark" id="journey"><div class="inner"><div class="kicker">The chapters ahead</div><h2 class="title">The Journey.</h2><div class="grid"><article class="tile"><div class="num">01</div><h3>Milestones</h3><p>A space for meaningful moments and genuine accomplishments.</p></article><article class="tile"><div class="num">02</div><h3>Interests</h3><p>Passions, ideas and experiences that continue to inspire.</p></article><article class="tile"><div class="num">03</div><h3>Vision</h3><p>New goals, fresh opportunities and the next chapter ahead.</p></article></div></div></section>
-<section class="content" id="gallery"><div class="inner gallery"><div><div class="kicker">A closer look</div><h2 class="title">Personal<br>Gallery.</h2><p class="copy">A curated collection of personal photographs and memorable moments. More photographs can be added as the story continues.</p></div><img src="assets/portrait.png" alt="J. K. Chandan portrait"></div></section>
-<section class="content dark contact" id="contact"><div class="inner"><div class="kicker">Stay connected</div><h2 class="title">Let’s Connect.</h2><p class="copy">For genuine enquiries and professional connections, official contact details can be added here.</p>
-  <div class="social-links">
-<a href="https://www.instagram.com/theunfiltered__jk/" target="_blank">Instagram</a>
-<a href="https://www.facebook.com/share/1A3na4QfwT/" target="_blank">Facebook</a>
-<a href="https://x.com/JKChandan02" target="_blank">Twitter (X)</a>
-<a href="https://www.snapchat.com/add/jkchandan02" target="_blank">Snapchat</a>
+
+<header>
+  <div class="brand-logo">
+    <img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K. Chandan Signature">
   </div>
-  <a class="btn gold" href="#home">Back to Top ↑</a></div></section><section class="signature">
-   PERSONAL SIGNATURE</p>
+
+  <nav>
+    <a class="logo" href="#home">J. K. CHANDAN</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero" id="home">
+  <div>
+    <div class="kicker">A SIGNATURE OF DISTINCTION</div>
+    <h1>J. K.<span>CHANDAN</span></h1>
+    <p class="tag">THE ART OF BEING DISTINCT.</p>
+    <p class="lead">
+      Not made to follow the ordinary. Defined by individuality,
+      driven by ambition, and inspired by a vision that knows no boundaries.
+      A presence that speaks through elegance. A mindset shaped by ambition.
+      An identity that stands apart.
+    </p>
+    <div class="actions">
+      <a class="btn gold" href="#about">Discover My Story</a>
+      <a class="btn" href="#gallery">Explore Gallery</a>
+    </div>
+  </div>
+
+  <div class="frame">
+    <img src="assets/portrait.png" alt="Portrait of J. K. Chandan">
+    <div class="caption">The Person · The Journey</div>
+  </div>
+</div>
+
+<div class="marquee">“Elegance is an attitude. Excellence is a journey.”</div>
+
+<section class="content" id="about">
+  <div class="inner about">
+    <div>
+      <div class="kicker">The introduction</div>
+      <h2 class="title">Beyond<br>the Name.</h2>
+      <div class="quote">A Personality Beyond Ordinary</div>
+    </div>
+    <div>
+      <p class="copy">
+        Welcome to the official digital space of J. K. Chandan.
+        This website is a personal introduction — a place to share genuine
+        experiences, interests, milestones and future ambitions.
+      </p>
+      <p class="copy">
+        Every profile has a story worth telling. This one will grow with
+        authentic moments, meaningful work and verified accomplishments.
+        Thank you for being here.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="content dark" id="journey">
+  <div class="inner">
+    <div class="kicker">The chapters ahead</div>
+    <h2 class="title">The Journey.</h2>
+
+    <div class="grid">
+      <article class="tile">
+        <div class="num">01</div>
+        <h3>Milestones</h3>
+        <p>A space for meaningful moments and genuine accomplishments.</p>
+      </article>
+
+      <article class="tile">
+        <div class="num">02</div>
+        <h3>Interests</h3>
+        <p>Passions, ideas and experiences that continue to inspire.</p>
+      </article>
+
+      <article class="tile">
+        <div class="num">03</div>
+        <h3>Vision</h3>
+        <p>New goals, fresh opportunities and the next chapter ahead.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="content" id="gallery">
+  <div class="inner gallery">
+    <div>
+      <div class="kicker">A closer look</div>
+      <h2 class="title">Personal<br>Gallery.</h2>
+      <p class="copy">
+        A curated collection of personal photographs and memorable moments.
+        More photographs can be added as the story continues.
+      </p>
+    </div>
+    <img src="assets/portrait.png" alt="J. K. Chandan portrait">
+  </div>
+</section>
+
+<section class="content dark contact" id="contact">
+  <div class="inner">
+    <div class="kicker">Stay connected</div>
+    <h2 class="title">Let’s Connect.</h2>
+    <p class="copy">
+      For genuine enquiries and professional connections,
+      official contact details can be added here.
+    </p>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/theunfiltered__jk/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.facebook.com/share/1A3na4QfwT/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://x.com/JKChandan02" target="_blank" rel="noopener noreferrer">Twitter (X)</a>
+      <a href="https://www.snapchat.com/add/jkchandan02" target="_blank" rel="noopener noreferrer">Snapchat</a>
+    </div>
+
+    <a class="btn gold" href="#home">Back to Top ↑</a>
+  </div>
+</section>
+
+<section class="signature">
+  <p>A PERSONAL SIGNATURE</p>
   <h2>J. K. CHANDAN</h2>
   <h3>Distinct by Identity. Defined by Excellence.</h3>
   <div class="signature-line"></div>
   <span>J.K.C.</span>
-</section></main>
-<footer>
-<span>© <span id="year"></span> J. K. Chandan</span>
-<span>Official Personal Website · A Personality Beyond Ordinary</span>
-<div class="footer-logo">
-<img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K.C. Signature">
-</div>
-</footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear()</script><script>
-setTimeout(function(){
-  document.getElementById('welcome').remove();
-}, 4000);
-</script></body></html>
-<div class="social-links">
-  <a href="https://www.instagram.com/theunfiltered__jk/" target="_blank">Instagram</a>
-  <a href="https://www.facebook.com/share/1A3na4QfwT/" target="_blank">Facebook</a>
-  <a href="https://x.com/JKChandan2" target="_blank">Twitter (X)</a>
-<a href="https://www.snapchat.com/add/jkchandan02" target="_blank">Snapchat</a>
+</section>
 
-</div>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> J. K. Chandan</span>
+  <span>Official Personal Website · A Personality Beyond Ordinary</span>
+  <div class="footer-logo">
+    <img src="assets/file_000000000e6881faa5587f8be54f4757.png" alt="J.K.C. Signature">
+  </div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+setTimeout(function() {
+  const welcome = document.getElementById('welcome');
+  if (welcome) welcome.remove();
+}, 4000);
+</script>
+
+</body>
+</html>
+
